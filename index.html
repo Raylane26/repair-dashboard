@@ -224,7 +224,12 @@ function hideLoading(msg) {
 // ===== 加载数据 =====
 async function loadData() {
   try {
-    var resp = await fetch('data.json?t=' + Date.now());
+    // 设置超时（15秒）
+    var controller = new AbortController();
+    var timeoutId = setTimeout(function() { controller.abort(); }, 15000);
+
+    var resp = await fetch('data.json?t=' + Date.now(), { signal: controller.signal });
+    clearTimeout(timeoutId);
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
     var data = await resp.json();
     if (!data || !data.records) throw new Error('数据格式无效');
@@ -233,7 +238,12 @@ async function loadData() {
     hideLoading();
   } catch(e) {
     console.error('看板加载失败:', e);
-    hideLoading('<div style="text-align:center;color:#c62828;font-size:16px;">数据加载失败<br><small style="color:#999">' + e.message + '</small><br><br><button onclick="location.reload()" style="padding:8px 20px;border-radius:6px;border:none;background:#1565c0;color:white;cursor:pointer;font-size:14px;">刷新重试</button></div>');
+    var errMsg = e.name === 'AbortError' ? '请求超时（15秒）' : e.message;
+    hideLoading('<div style="text-align:center;color:#c62828;font-size:16px;padding:40px;">' +
+      '<div style="font-size:48px;margin-bottom:16px;">⚠️</div>' +
+      '数据加载失败<br><small style="color:#999;display:block;margin-top:8px;">' + errMsg + '</small>' +
+      '<br><br><button onclick="location.reload()" style="padding:8px 20px;border-radius:6px;border:none;background:#1565c0;color:white;cursor:pointer;font-size:14px;">刷新重试</button>' +
+      '</div>');
   }
 }
 
