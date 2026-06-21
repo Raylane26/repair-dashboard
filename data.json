@@ -1,12 +1,12 @@
 {
-  "lastUpdate": "2026-06-21 18:10:00",
+  "lastUpdate": "2026-06-21 18:32:00",
   "group": "航天营地日常对接群",
   "stats": {
     "total": 39,
-    "completed": 34,
-    "inProgress": 5,
-    "completionRate": 87.2,
-    "avgTimeliness": 2.4
+    "completed": 36,
+    "inProgress": 3,
+    "completionRate": 92.3,
+    "avgTimeliness": 2.6
   },
   "records": [
     {
@@ -496,11 +496,11 @@
       "location": "A区44号座位",
       "problem": "自习区A区44号座位上方滴水，之前维修过仍滴水（复漏）",
       "type": "漏水问题",
-      "status": "处理中",
-      "completedDate": "",
-      "timeliness": "",
+      "status": "已完成",
+      "completedDate": "2026-06-21",
+      "timeliness": "2",
       "handler": "电工侯",
-      "note": "6/19学生反馈复漏，电工侯已接单",
+      "note": "6/19学生反馈复漏，电工侯已接单 | 6/21张泽阳反馈已修复",
       "#": 38
     },
     {
@@ -509,11 +509,11 @@
       "location": "B区44号椅子",
       "problem": "自习室B区44号椅子把手断裂脱节",
       "type": "电器损坏",
-      "status": "处理中",
-      "completedDate": "",
-      "timeliness": "",
+      "status": "已完成",
+      "completedDate": "2026-06-21",
+      "timeliness": "2",
       "handler": "张泽阳",
-      "note": "6/19学生反馈，已置换待维修",
+      "note": "6/19学生反馈，已置换待维修 | 6/21张泽阳反馈已修复",
       "#": 39
     }
   ]
