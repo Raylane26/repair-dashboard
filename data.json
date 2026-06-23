@@ -1,11 +1,11 @@
 {
-  "lastUpdate": "2026-06-21 18:32:00",
+  "lastUpdate": "2026-06-23 19:09:00",
   "group": "航天营地日常对接群",
   "stats": {
-    "total": 39,
+    "total": 41,
     "completed": 36,
-    "inProgress": 3,
-    "completionRate": 92.3,
+    "inProgress": 5,
+    "completionRate": 87.8,
     "avgTimeliness": 2.6
   },
   "records": [
@@ -515,6 +515,32 @@
       "handler": "张泽阳",
       "note": "6/19学生反馈，已置换待维修 | 6/21张泽阳反馈已修复",
       "#": 39
+    },
+    {
+      "date": "2026-06-23",
+      "reporter": "田雨欣",
+      "location": "903宿舍",
+      "problem": "卫生间开关不起作用",
+      "type": "电气故障",
+      "status": "处理中",
+      "completedDate": "",
+      "timeliness": "",
+      "handler": "张泽阳",
+      "note": "学生扫码报修，刘泓转发→张泽阳已接单",
+      "#": 40
+    },
+    {
+      "date": "2026-06-23",
+      "reporter": "多名同学",
+      "location": "A/B区自习室",
+      "problem": "空调直吹太冷",
+      "type": "空调故障",
+      "status": "处理中",
+      "completedDate": "",
+      "timeliness": "",
+      "handler": "张玉豪",
+      "note": "多名同学反映，张玉豪→建议加装出风挡板",
+      "#": 41
     }
   ]
 }
