@@ -1,12 +1,12 @@
 {
-  "lastUpdate": "2026-06-23 19:09:00",
+  "lastUpdate": "2026-06-24 18:15:00",
   "group": "航天营地日常对接群",
   "stats": {
-    "total": 41,
-    "completed": 36,
-    "inProgress": 5,
-    "completionRate": 87.8,
-    "avgTimeliness": 2.6
+    "total": 42,
+    "completed": 38,
+    "inProgress": 4,
+    "completionRate": 90.5,
+    "avgTimeliness": 2.4
   },
   "records": [
     {
@@ -55,11 +55,11 @@
       "location": "10层过道",
       "problem": "消防栓玻璃破损",
       "type": "综合维修",
-      "status": "处理中",
-      "completedDate": "",
-      "timeliness": "",
+      "status": "已完成",
+      "completedDate": "2026-06-23",
+      "timeliness": "6",
       "handler": "张泽阳",
-      "note": "刘泓扫码报修单提交，张泽阳已接收"
+      "note": "刘泓扫码报修单提交，张泽阳已接收 | 6/23 19:16张波反馈消防箱玻璃已更换，6/24刘泓确认看到"
     },
     {
       "#": 5,
@@ -522,12 +522,12 @@
       "location": "903宿舍",
       "problem": "卫生间开关不起作用",
       "type": "电气故障",
-      "status": "处理中",
-      "completedDate": "",
-      "timeliness": "",
-      "handler": "张泽阳",
-      "note": "学生扫码报修，刘泓转发→张泽阳已接单",
-      "#": 40
+      "status": "已完成",
+      "completedDate": "2026-06-23",
+      "timeliness": "0",
+      "handler": "张泽阳/侯江13484928502",
+      "note": "学生扫码报修，刘泓转发→张泽阳已接单 | 6/23 20:17确认'903卫生间浴霸已处理'"
+      ,"#": 40
     },
     {
       "date": "2026-06-23",
@@ -541,6 +541,19 @@
       "handler": "张玉豪",
       "note": "多名同学反映，张玉豪→建议加装出风挡板",
       "#": 41
+    },
+    {
+      "date": "2026-06-24",
+      "reporter": "张玉豪",
+      "location": "827寝室",
+      "problem": "淋浴下水堵塞（复报）",
+      "type": "管道堵塞",
+      "status": "处理中",
+      "completedDate": "",
+      "timeliness": "",
+      "handler": "张泽阳",
+      "note": "6/24 18:16张玉豪反馈：'827寝室反馈淋浴下水堵塞，昨天报修过，辛苦老师安排师傅处理@张泽阳'",
+      "#": 42
     }
   ]
 }
