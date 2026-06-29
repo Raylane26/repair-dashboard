@@ -1,11 +1,11 @@
 {
-  "lastUpdate": "2026-06-29 10:20:00",
+  "lastUpdate": "2026-06-29 18:10:00",
   "group": "航天营地日常对接群",
   "stats": {
-    "total": 49,
-    "completed": 43,
-    "inProgress": 6,
-    "completionRate": 87.8,
+    "total": 51,
+    "completed": 46,
+    "inProgress": 5,
+    "completionRate": 90.2,
     "avgTimeliness": 2.4
   },
   "records": [
@@ -539,7 +539,7 @@
       "completedDate": "",
       "timeliness": "",
       "handler": "张玉豪",
-      "note": "多名同学反映，张玉豪→建议加装出风挡板",
+      "note": "多名同学反映，张玉豪→建议加装出风挡板 | 6/29薛博再次反馈B区128头顶空调直吹头疼，张泽阳'采购完了，东西到了就开始安装'",
       "#": 41
     },
     {
@@ -639,12 +639,38 @@
       "location": "723宿舍",
       "problem": "空调开制冷效果不好，宿舍一直显示25.6度，开了也比较热",
       "type": "空调故障",
-      "status": "处理中",
-      "completedDate": "",
-      "timeliness": "",
-      "handler": "张泽阳",
-      "note": "6/29 09:37刘泓转发报修单，与611同批处理（下午2点后）",
+      "status": "已完成",
+      "completedDate": "2026-06-29",
+      "timeliness": "0",
+      "handler": "侯江",
+      "note": "6/29 09:37刘泓转发报修单→14:51侯江确认'723空调已处理'，当日完成",
       "#": 49
+    },
+    {
+      "date": "2026-06-29",
+      "reporter": "马睿",
+      "location": "自习室C67/C72区域",
+      "problem": "C67、C72座位插座没有电，怀疑整个区域未供电",
+      "type": "电气故障",
+      "status": "已完成",
+      "completedDate": "2026-06-29",
+      "timeliness": "0",
+      "handler": "侯江",
+      "note": "6/29 14:42马睿@侯江反馈→14:43侯江'收到'→15:49侯江'67--74那一排没有电已处理'，1小时极速响应",
+      "#": 50
+    },
+    {
+      "date": "2026-06-29",
+      "reporter": "刘泓",
+      "location": "1015宿舍",
+      "problem": "门牌脱落需要粘好",
+      "type": "综合维修",
+      "status": "已完成",
+      "completedDate": "2026-06-29",
+      "timeliness": "0",
+      "handler": "张泽阳/侯江",
+      "note": "6/29 17:25刘泓图文@张泽阳@侯江'需要处理'→17:25张泽阳'已经在粘了'→17:59侯江'1015门牌已粘好'，34分钟完成",
+      "#": 51
     }
   ]
 }
